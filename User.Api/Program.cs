@@ -1,14 +1,12 @@
-// Inicializar la instancia de la base de datos en memoria
 User.Api.Core.Database.Instance = User.Api.Core.MemoryDatabase.Instance;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar CORS para permitir el frontend
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy => policy
-            .WithOrigins("http://localhost:4200") // Cambia el puerto si tu Angular corre en otro
+            .WithOrigins("http://localhost:4200")
             .AllowAnyHeader()
             .AllowAnyMethod()
     );
@@ -18,7 +16,7 @@ builder.Services.AddCors(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddControllers(); // <-- Agrega esta línea
+builder.Services.AddControllers();
 
 
 var app = builder.Build();
@@ -30,12 +28,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Usar CORS antes de los controladores
 app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 
-app.MapControllers(); // <-- Y esta línea
+app.MapControllers(); 
 
 var summaries = new[]
 {
