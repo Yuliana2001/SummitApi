@@ -1,0 +1,12 @@
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/bin/Debug/net8.0/User.Api.Core.deps.json
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/bin/Debug/net8.0/User.Api.Core.dll
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/bin/Debug/net8.0/User.Api.Core.pdb
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.AssemblyInfoInputs.cache
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.AssemblyInfo.cs
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.csproj.CoreCompileInputs.cache
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.sourcelink.json
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.dll
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/refint/User.Api.Core.dll
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/User.Api.Core.pdb
+/home/yuliana/Documentos/source/pruebaTecnica/User.Api/User.Api.Core/obj/Debug/net8.0/ref/User.Api.Core.dll
